@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Hamster and Co.</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="">
+    <header id="header">
+      <nav id="nav-bar" class="navbar navbar-expand navbar-static-top bg-warning">
+        <div class="container">
+          <div class="navbar-header my-3">
+            <a href="#" class="logo-img">
+              <img id="header-img" class="float-start mx-3" style="width:80px;height:80px;" src="/images/logo.png" alt="Logo"></a>
+            <div class="brand text-left float-start">  
+              <a href="#" class="navbar-brand">
+                <h1>Ence Esports</h1>
+                <p>Esports Organization</p>
+              </a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item lead">
+                <a href="#newsletter" class="nav-link">Newsletter</a>
+              </li>
+              <li class="nav-item lead">
+                <a href="#about" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item lead">
+                <a href="#intro" class="nav-link">Intro</a>
+              </li>
+              <li class="nav-item lead">
+                <a href="#teams" class="nav-link">Our Teams</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--<div class="gap" style="height: 200px;"></div>-->
+    <main>
+      <section id="newsletter">
+        <div  style="width:50%" class="container py-5">
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <h2 class="text-center">Register For Updates through Our Email Newsletter</h2>
+            <div class="email">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input id="email" placeholder="johndoe@email.com" type="email" class="form-control" name="email" aria-describedby="emailHelp">
+            </div>
+            <input id="submit" class="btn btn-warning my-1" type="submit" value="Register"></div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="container bg-dark text-light p-5">
+          <h1>About Us</h1>
+          <p class="lead">ENCE was originally founded in 2013 to professionalize the Finnish esports landscape. Our mission
+            has always been to build a sustainable winning culture and know-how of creating success stories.
+          </p>
+          <p class="lead">
+            With the rise of esports towards the mainstream in the last few years, we have also strived to enable a vocal fanbase to be heard and play a part in everything ENCE does.</p>
+        </div>
+      </section>
+
+      <section id="intro">
+        <div style="display: flex; justify-content: center;" class="container my-3">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/sc1BQLKA67c" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section id="teams">
+        <div class="container text-center bg-dark p-5">
+          <div style="margin-left: 50px;" class="row">
+            <div class="col-md">
+              <div class="card" style="width: 18rem;height: 20rem;">
+                <img src="/images/csgo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">CS:GO</h5>
+                  <p class="card-text">CS:GO is our favourite game to represent and our CS:GO roster is not slowing down after 3 consecutive 2nd place finishes.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md"><div class="card" style="width: 18rem;height: 20rem;">
+                <img src="/images/valo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Valorant</h5>
+                  <p class="card-text">Our Valorant project is a fresh one and our team is gonna play their first LAN tournament really soon.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md">
+              <div class="card" style="width: 18rem; height: 20rem;">
+                <img src="/images/dota2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dota 2</h5>
+                  <p class="card-text">We have a leading team as our Dota 2 roster and they have given us multiple trophies.</p>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
