@@ -1,3 +1,48 @@
-body{
-    padding-top: 500px;
+#column{
+    display: flex;
+    align-items: center;
+}
+#email-header{
+    width:50%
+}
+.card{
+    height: 300px;
+}
+
+.col-md{
+    margin: 10px 0;
+    
+}
+.card-img-top{
+    height: 250px;
+    object-fit: cover;
+}
+
+.card:hover{
+    background-color: #ffc107;
+    transition: 500ms;
+    cursor: pointer;    
+}
+
+@media(max-width:768px){
+
+    .col-md{
+        margin: 10px 0 !important;
+    }
+
+    .card{
+        height: 300px;
+    }
+    .card-img-top{
+        height: 240px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    #email-header{
+        width: 80%;
+    }
+    
 }
